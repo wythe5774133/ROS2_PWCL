@@ -1,0 +1,6 @@
+float32[] speed
+float32[] altitude
+float64[] latitude
+float64[] longitude
+float32[] yaw_delta
+string point_count

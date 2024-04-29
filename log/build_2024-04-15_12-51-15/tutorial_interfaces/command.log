@@ -1,0 +1,2 @@
+Invoking command in '/home/wythe/PWCL_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wythe/PWCL_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/wythe/PWCL_ws/install/tutorial_interfaces
+Invoked command in '/home/wythe/PWCL_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wythe/PWCL_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/wythe/PWCL_ws/install/tutorial_interfaces

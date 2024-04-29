@@ -1,0 +1,45 @@
+[0.140s] Invoking command in '/home/wythe/PWCL_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/wythe/PWCL_ws/install/mavros:/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wythe/PWCL_ws/install/mavros:/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:/home/wythe/PWCL_ws/install/mavlink:/opt/ros/foxy LD_LIBRARY_PATH=/home/wythe/PWCL_ws/install/mavros/lib:/home/wythe/PWCL_ws/install/libmavconn/lib:/home/wythe/PWCL_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wythe/PWCL_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/wythe/PWCL_ws/install/mavlink/lib/pkgconfig PYTHONPATH=/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages:/home/wythe/PWCL_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wythe/PWCL_ws/build/mavros_extras -- -j12 -l12
+[0.202s] [  5%] Built target servo_state_publisher
+[0.205s] [ 10%] Built target mavros_extras
+[0.539s] [100%] Built target mavros_extras_plugins
+[0.551s] Invoked command in '/home/wythe/PWCL_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/wythe/PWCL_ws/install/mavros:/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wythe/PWCL_ws/install/mavros:/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:/home/wythe/PWCL_ws/install/mavlink:/opt/ros/foxy LD_LIBRARY_PATH=/home/wythe/PWCL_ws/install/mavros/lib:/home/wythe/PWCL_ws/install/libmavconn/lib:/home/wythe/PWCL_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wythe/PWCL_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/wythe/PWCL_ws/install/mavlink/lib/pkgconfig PYTHONPATH=/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages:/home/wythe/PWCL_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wythe/PWCL_ws/build/mavros_extras -- -j12 -l12
+[0.633s] Invoking command in '/home/wythe/PWCL_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/wythe/PWCL_ws/install/mavros:/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wythe/PWCL_ws/install/mavros:/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:/home/wythe/PWCL_ws/install/mavlink:/opt/ros/foxy LD_LIBRARY_PATH=/home/wythe/PWCL_ws/install/mavros/lib:/home/wythe/PWCL_ws/install/libmavconn/lib:/home/wythe/PWCL_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wythe/PWCL_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/wythe/PWCL_ws/install/mavlink/lib/pkgconfig PYTHONPATH=/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages:/home/wythe/PWCL_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wythe/PWCL_ws/build/mavros_extras
+[0.641s] -- Install configuration: ""
+[0.641s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/mavros_plugins.xml
+[0.641s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/lib/mavros_extras/servo_state_publisher
+[0.642s] -- Set runtime path of "/home/wythe/PWCL_ws/install/mavros_extras/lib/mavros_extras/servo_state_publisher" to ""
+[0.642s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/lib/libmavros_extras.so
+[0.647s] -- Set runtime path of "/home/wythe/PWCL_ws/install/mavros_extras/lib/libmavros_extras.so" to ""
+[0.648s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/lib/libmavros_extras_plugins.so
+[0.712s] -- Set runtime path of "/home/wythe/PWCL_ws/install/mavros_extras/lib/libmavros_extras_plugins.so" to ""
+[0.712s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/include
+[0.712s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/include/mavros_extras
+[0.712s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/include/mavros_extras/servo_state_publisher.hpp
+[0.712s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/launch
+[0.712s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/launch/px4flow_config.yaml
+[0.712s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/launch/px4flow_pluginlists.yaml
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/launch/px4flow.launch
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/launch/servo_state_publisher.yaml
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/environment/library_path.sh
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/environment/library_path.dsv
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/ament_index/resource_index/package_run_dependencies/mavros_extras
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/ament_index/resource_index/parent_prefix_path/mavros_extras
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.sh
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.dsv
+[0.713s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/environment/path.sh
+[0.714s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/environment/path.dsv
+[0.714s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/local_setup.bash
+[0.714s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/local_setup.sh
+[0.714s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/local_setup.zsh
+[0.714s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/local_setup.dsv
+[0.714s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/package.dsv
+[0.714s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/ament_index/resource_index/packages/mavros_extras
+[0.715s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros_extras
+[0.715s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/ament_index/resource_index/rclcpp_components/mavros_extras
+[0.715s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.715s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_libraries-extras.cmake
+[0.715s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.716s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+[0.716s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+[0.716s] -- Installing: /home/wythe/PWCL_ws/install/mavros_extras/share/mavros_extras/package.xml
+[0.718s] Invoked command in '/home/wythe/PWCL_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/wythe/PWCL_ws/install/mavros:/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wythe/PWCL_ws/install/mavros:/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:/home/wythe/PWCL_ws/install/mavlink:/opt/ros/foxy LD_LIBRARY_PATH=/home/wythe/PWCL_ws/install/mavros/lib:/home/wythe/PWCL_ws/install/libmavconn/lib:/home/wythe/PWCL_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wythe/PWCL_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/wythe/PWCL_ws/install/mavlink/lib/pkgconfig PYTHONPATH=/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages:/home/wythe/PWCL_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wythe/PWCL_ws/build/mavros_extras

@@ -1,0 +1,7 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/wythe/PWCL_ws/src/tutorial_interfaces:srv/DroneMissionPath.srv",
+    "/home/wythe/PWCL_ws/src/tutorial_interfaces:srv/DroneStatus.srv"
+  ]
+}

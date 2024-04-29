@@ -1,0 +1,46 @@
+[ 33%] Built target gtest
+[ 33%] Built target gtest_main
+[ 83%] Built target mavconn
+[100%] Built target test_mavconn
+-- Install configuration: ""
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/lib/libmavconn.so
+-- Set runtime path of "/home/wythe/PWCL_ws/install/libmavconn/lib/libmavconn.so" to ""
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/interface.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/serial.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/tcp.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/udp.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/thread_utils.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/msgbuffer.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/console_bridge_compat.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp.em
+-- Up-to-date: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn
+-- Up-to-date: /home/wythe/PWCL_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/Modules
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/Modules/em_expand.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/Modules/FindASIO.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/Modules/CheckGeographicLibDatasets.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/environment/library_path.sh
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/environment/library_path.dsv
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/ament_index/resource_index/package_run_dependencies/libmavconn
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/ament_index/resource_index/parent_prefix_path/libmavconn
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.sh
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.dsv
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/environment/path.sh
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/environment/path.dsv
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/local_setup.bash
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/local_setup.sh
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/local_setup.zsh
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/local_setup.dsv
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/package.dsv
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/ament_index/resource_index/packages/libmavconn
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake
+-- Installing: /home/wythe/PWCL_ws/install/libmavconn/share/libmavconn/package.xml

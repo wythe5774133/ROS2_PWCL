@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/DroneMissionPath.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct DroneMissionPath_Request {
+      sequence<float> speed;
+
+      sequence<float> altitude;
+
+      sequence<double> latitude;
+
+      sequence<double> longitude;
+
+      sequence<float> yaw_delta;
+
+      string point_count;
+    };
+    struct DroneMissionPath_Response {
+      boolean path_check;
+    };
+  };
+};

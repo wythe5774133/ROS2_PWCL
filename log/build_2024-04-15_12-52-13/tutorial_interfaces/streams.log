@@ -1,0 +1,236 @@
+[0.128s] Invoking command in '/home/wythe/PWCL_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wythe/PWCL_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/wythe/PWCL_ws/install/tutorial_interfaces
+[0.144s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.164s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.347s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.370s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.560s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.589s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.758s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.115s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.116s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.142s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.142s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.142s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.142s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.162s] -- Found PythonExtra: .so  
+[1.236s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.261s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.264s] -- Added test 'lint_cmake' to check CMake code style
+[1.265s] -- Added test 'xmllint' to check XML markup files
+[1.270s] -- Configuring done
+[1.333s] -- Generating done
+[1.335s] -- Build files have been written to: /home/wythe/PWCL_ws/build/tutorial_interfaces
+[1.344s] Invoked command in '/home/wythe/PWCL_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wythe/PWCL_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/wythe/PWCL_ws/install/tutorial_interfaces
+[1.347s] Invoking command in '/home/wythe/PWCL_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wythe/PWCL_ws/build/tutorial_interfaces -- -j12 -l12
+[1.384s] [35m[1mScanning dependencies of target tutorial_interfaces__cpp[0m
+[1.384s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.394s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.690s] [  5%] Built target tutorial_interfaces__cpp
+[1.698s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[1.700s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.700s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.700s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.712s] [ 15%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/drone_mission_path__functions.c.o[0m
+[1.715s] [ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/drone_status__functions.c.o[0m
+[1.778s] [ 20%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[1.823s] [ 20%] Built target tutorial_interfaces__rosidl_generator_c
+[1.834s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.834s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.948s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[1.967s] [ 28%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/drone_status__type_support.cpp.o[0m
+[1.968s] [ 30%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/drone_mission_path__type_support.cpp.o[0m
+[1.986s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.998s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.003s] [ 33%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/drone_status__type_support.cpp.o[0m
+[2.005s] [ 35%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/drone_mission_path__type_support.cpp.o[0m
+[2.027s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/drone_mission_path__type_support.cpp.o[0m
+[2.030s] [ 41%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/drone_status__type_support.cpp.o[0m
+[2.121s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[2.140s] [ 43%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/drone_mission_path__type_support.cpp.o[0m
+[2.145s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/drone_status__type_support.cpp.o[0m
+[2.199s] [ 48%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[2.210s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[2.225s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/drone_status__type_support.c.o[0m
+[2.228s] [ 53%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/drone_mission_path__type_support.c.o[0m
+[2.268s] [ 53%] Built target tutorial_interfaces__rosidl_typesupport_c
+[2.275s] [ 56%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.314s] [ 56%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[2.438s] [ 58%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[2.453s] [ 61%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.481s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[2.535s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[2.602s] [ 64%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.692s] [ 64%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.702s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.970s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.018s] [ 71%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/drone_status__type_support_c.cpp.o[0m
+[3.018s] [ 71%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/drone_mission_path__type_support_c.cpp.o[0m
+[3.371s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.456s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[3.466s] [35m[1mScanning dependencies of target tutorial_interfaces[0m
+[3.476s] [ 74%] Built target tutorial_interfaces
+[3.486s] [35m[1mScanning dependencies of target tutorial_interfaces__py[0m
+[3.496s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.098s] [ 76%] Built target tutorial_interfaces__py
+[4.108s] [35m[1mScanning dependencies of target tutorial_interfaces__python[0m
+[4.141s] [ 79%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_drone_mission_path_s.c.o[0m
+[4.141s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_drone_status_s.c.o[0m
+[4.261s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so[0m
+[4.308s] [ 84%] Built target tutorial_interfaces__python
+[4.318s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[4.318s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.318s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.335s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.335s] [ 89%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.337s] [ 92%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.417s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.419s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.421s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.456s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[4.458s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.494s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.505s] Invoked command in '/home/wythe/PWCL_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wythe/PWCL_ws/build/tutorial_interfaces -- -j12 -l12
+[4.571s] Invoking command in '/home/wythe/PWCL_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wythe/PWCL_ws/build/tutorial_interfaces
+[4.579s] -- Install configuration: ""
+[4.579s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[4.579s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[4.579s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[4.579s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/drone_status.h
+[4.579s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[4.580s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__type_support.h
+[4.580s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__functions.h
+[4.580s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__struct.h
+[4.580s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__struct.h
+[4.580s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__functions.h
+[4.580s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__functions.c
+[4.580s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__type_support.h
+[4.580s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__functions.c
+[4.581s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/drone_mission_path.h
+[4.581s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[4.581s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.581s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[4.581s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[4.581s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[4.581s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[4.581s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[4.581s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[4.582s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[4.582s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__rosidl_typesupport_fastrtps_c.h
+[4.582s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__rosidl_typesupport_fastrtps_c.h
+[4.582s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[4.582s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.582s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.582s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.582s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[4.582s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[4.583s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[4.583s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps
+[4.583s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__rosidl_typesupport_fastrtps_cpp.hpp
+[4.583s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.583s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[4.583s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.583s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.583s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.583s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[4.583s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[4.584s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[4.584s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__type_support.c
+[4.584s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__rosidl_typesupport_introspection_c.h
+[4.584s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__type_support.c
+[4.584s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__rosidl_typesupport_introspection_c.h
+[4.584s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[4.584s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.584s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[4.584s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.585s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[4.585s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[4.585s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[4.585s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[4.585s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/drone_status.hpp
+[4.585s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[4.585s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__struct.hpp
+[4.586s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__type_support.hpp
+[4.586s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__builder.hpp
+[4.586s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__type_support.hpp
+[4.586s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__struct.hpp
+[4.586s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__traits.hpp
+[4.586s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__traits.hpp
+[4.586s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__builder.hpp
+[4.586s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/drone_mission_path.hpp
+[4.586s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[4.587s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.587s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[4.587s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[4.587s] -- Up-to-date: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[4.587s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__type_support.cpp
+[4.587s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_mission_path__rosidl_typesupport_introspection_cpp.hpp
+[4.587s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__rosidl_typesupport_introspection_cpp.hpp
+[4.587s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/drone_status__type_support.cpp
+[4.587s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.587s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.587s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[4.588s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.588s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[4.588s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[4.588s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py
+[4.619s] Compiling '/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...
+[4.622s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv
+[4.622s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_drone_status_s.c
+[4.622s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py
+[4.623s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_drone_status.py
+[4.623s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_drone_mission_path_s.c
+[4.623s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_drone_mission_path.py
+[4.623s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.623s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.624s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.624s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.624s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.625s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.625s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+[4.625s] -- Set runtime path of "/home/wythe/PWCL_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""
+[4.626s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/DroneMissionPath.idl
+[4.626s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/DroneStatus.idl
+[4.626s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/DroneMissionPath.srv
+[4.626s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/DroneMissionPath_Request.msg
+[4.626s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/DroneMissionPath_Response.msg
+[4.626s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/DroneStatus.srv
+[4.626s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/DroneStatus_Request.msg
+[4.626s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/DroneStatus_Response.msg
+[4.627s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[4.627s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[4.627s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[4.627s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[4.627s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[4.628s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[4.628s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[4.628s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[4.628s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[4.628s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[4.628s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[4.628s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[4.628s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake
+[4.629s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.629s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.629s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.629s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[4.629s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.629s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake
+[4.630s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.630s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.630s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[4.630s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.630s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.631s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.631s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.631s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.631s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.631s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.631s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.631s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[4.631s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[4.632s] -- Installing: /home/wythe/PWCL_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[4.634s] Invoked command in '/home/wythe/PWCL_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wythe/PWCL_ws/build/tutorial_interfaces

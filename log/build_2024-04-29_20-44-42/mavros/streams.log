@@ -1,0 +1,124 @@
+[0.135s] Invoking command in '/home/wythe/PWCL_ws/build/mavros': AMENT_PREFIX_PATH=/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:/home/wythe/PWCL_ws/install/mavlink:/opt/ros/foxy LD_LIBRARY_PATH=/home/wythe/PWCL_ws/install/libmavconn/lib:/home/wythe/PWCL_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wythe/PWCL_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/wythe/PWCL_ws/install/mavlink/lib/pkgconfig PYTHONPATH=/home/wythe/PWCL_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wythe/PWCL_ws/build/mavros -- -j12 -l12
+[0.188s] [ 11%] Built target gtest_main
+[0.188s] [ 11%] Built target gmock
+[0.188s] [  9%] Built target gtest
+[0.188s] [ 14%] Built target gmock_main
+[0.292s] [ 37%] Built target mavros
+[0.343s] [ 40%] Built target libmavros-frame-conversions-test
+[0.347s] [ 43%] Built target libmavros-quaternion-utils-test
+[0.355s] [ 50%] Built target mavros-uas-test
+[0.356s] [ 50%] Built target mavros_node
+[0.364s] [ 56%] Built target mavros-router-test
+[0.365s] [ 56%] Built target libmavros-sensor-orientation-test
+[0.572s] [100%] Built target mavros_plugins
+[0.584s] Invoked command in '/home/wythe/PWCL_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:/home/wythe/PWCL_ws/install/mavlink:/opt/ros/foxy LD_LIBRARY_PATH=/home/wythe/PWCL_ws/install/libmavconn/lib:/home/wythe/PWCL_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wythe/PWCL_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/wythe/PWCL_ws/install/mavlink/lib/pkgconfig PYTHONPATH=/home/wythe/PWCL_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wythe/PWCL_ws/build/mavros -- -j12 -l12
+[0.692s] Invoking command in '/home/wythe/PWCL_ws/build/mavros': AMENT_PREFIX_PATH=/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:/home/wythe/PWCL_ws/install/mavlink:/opt/ros/foxy LD_LIBRARY_PATH=/home/wythe/PWCL_ws/install/libmavconn/lib:/home/wythe/PWCL_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wythe/PWCL_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/wythe/PWCL_ws/install/mavlink/lib/pkgconfig PYTHONPATH=/home/wythe/PWCL_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wythe/PWCL_ws/build/mavros
+[0.700s] -- Install configuration: ""
+[0.700s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/mavros_plugins.xml
+[0.700s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/environment/pythonpath.sh
+[0.700s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/environment/pythonpath.dsv
+[0.700s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/param.py
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/utils.py
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/setpoint.py
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/ftp.py
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/__init__.py
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/param.py
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/utils.py
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/ftp.py
+[0.701s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/__init__.py
+[0.702s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/cmd.py
+[0.702s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/__main__.py
+[0.702s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/system.py
+[0.702s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/checkid.py
+[0.702s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/safety.py
+[0.702s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/mission.py
+[0.702s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/global_position.py
+[0.702s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/local_position.py
+[0.703s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/system.py
+[0.703s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/nuttx_crc32.py
+[0.703s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/mavlink.py
+[0.703s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/base.py
+[0.703s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/mission.py
+[0.703s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/command.py
+[0.749s] Listing '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/__init__.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/base.py'...
+[0.750s] Listing '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/__init__.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/__main__.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/checkid.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/cmd.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/ftp.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/mission.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/param.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/safety.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/system.py'...
+[0.750s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/utils.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/command.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/ftp.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/global_position.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/local_position.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/mavlink.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/mission.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/nuttx_crc32.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/param.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/setpoint.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/system.py'...
+[0.751s] Compiling '/home/wythe/PWCL_ws/install/mavros/lib/python3.8/site-packages/mavros/utils.py'...
+[0.754s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/mavros/mav
+[0.754s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/libmavros.so
+[0.770s] -- Set runtime path of "/home/wythe/PWCL_ws/install/mavros/lib/libmavros.so" to ""
+[0.770s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/mavros/mavros_node
+[0.773s] -- Set runtime path of "/home/wythe/PWCL_ws/install/mavros/lib/mavros/mavros_node" to ""
+[0.774s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/libmavros_plugins.so
+[0.836s] -- Set runtime path of "/home/wythe/PWCL_ws/install/mavros/lib/libmavros_plugins.so" to ""
+[0.836s] -- Installing: /home/wythe/PWCL_ws/install/mavros/lib/mavros/install_geographiclib_datasets.sh
+[0.836s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include
+[0.836s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros
+[0.836s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/plugin.hpp
+[0.836s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/uas_executor.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/frame_tf.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/mavros_plugin_register_macro.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/mission_protocol_base.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/px4_custom_mode.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/plugin_filter.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/utils.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/setpoint_mixin.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/mavros_router.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/include/mavros/mavros_uas.hpp
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/node.launch
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/apm_pluginlists.yaml
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/apm.launch
+[0.837s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/mavlink_bridge.launch
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/px4_config.yaml
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/px4.launch
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/px4_pluginlists.yaml
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/apm_config.yaml
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/apm2.launch
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/launch/event_launcher.yaml
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/environment/library_path.sh
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/environment/library_path.dsv
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/ament_index/resource_index/package_run_dependencies/mavros
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/ament_index/resource_index/parent_prefix_path/mavros
+[0.838s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/environment/ament_prefix_path.sh
+[0.839s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/environment/ament_prefix_path.dsv
+[0.839s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/environment/path.sh
+[0.839s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/environment/path.dsv
+[0.839s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/local_setup.bash
+[0.839s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/local_setup.sh
+[0.839s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/local_setup.zsh
+[0.839s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/local_setup.dsv
+[0.839s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/package.dsv
+[0.840s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/ament_index/resource_index/packages/mavros
+[0.840s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros
+[0.840s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/ament_index/resource_index/rclcpp_components/mavros
+[0.840s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.840s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.840s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.840s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/cmake/mavrosConfig.cmake
+[0.841s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/cmake/mavrosConfig-version.cmake
+[0.841s] -- Installing: /home/wythe/PWCL_ws/install/mavros/share/mavros/package.xml
+[0.843s] Invoked command in '/home/wythe/PWCL_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wythe/PWCL_ws/install/libmavconn:/home/wythe/PWCL_ws/install/mavros_msgs:/home/wythe/PWCL_ws/install/mavlink:/opt/ros/foxy LD_LIBRARY_PATH=/home/wythe/PWCL_ws/install/libmavconn/lib:/home/wythe/PWCL_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/wythe/PWCL_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/wythe/PWCL_ws/install/mavlink/lib/pkgconfig PYTHONPATH=/home/wythe/PWCL_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wythe/PWCL_ws/build/mavros
