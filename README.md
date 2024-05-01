@@ -3,7 +3,8 @@
 # 功能介紹:
 根據使用者的需求可以使用"Ace6、4G、Xbee"通訊模組來開啟相對應的Node與無人機通訊
 # 注意事項:
-請先安裝以下插件包
+1.請先把"Build"、"install"、"log"資料夾刪除
+2.請先安裝以下插件包
 
 GStreamer
 Reference: https://gstreamer.freedesktop.org/documentation/installing/on-linux.html?gi-language=c
