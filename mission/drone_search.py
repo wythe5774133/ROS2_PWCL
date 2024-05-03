@@ -13,7 +13,6 @@ from geometry_msgs.msg import PoseStamped, Vector3, TwistStamped, Quaternion
 from geographic_msgs.msg import GeoPoseStamped
 from mavros_msgs.srv import CommandBool, SetMode, CommandTOL
 from transforms3d import euler
-#from mavros_msgs.srv import DroneStatus, DroneMissionPath
 from enum import Enum
 import numpy as np
 import cmath
@@ -21,6 +20,7 @@ import math
 import struct
 # from tutorial_interfaces.msg import Img
 from tutorial_interfaces.srv import DroneStatus, DroneMissionPath
+#from mavros_msgs.srv import DroneStatus, DroneMissionPath
 
 drone_point = []
 temp_detect_status = False
