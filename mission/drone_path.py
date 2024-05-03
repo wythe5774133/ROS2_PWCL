@@ -14,6 +14,7 @@ from geographic_msgs.msg import GeoPoseStamped
 from mavros_msgs.srv import CommandBool, SetMode, CommandTOL
 from transforms3d import euler
 from tutorial_interfaces.srv import DroneStatus, DroneMissionPath
+#from mavros_msgs.srv import DroneStatus, DroneMissionPath
 from enum import Enum
 import numpy as np
 import cmath
