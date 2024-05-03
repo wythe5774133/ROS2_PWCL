@@ -23,6 +23,7 @@ import binascii
 import socket_API as drone_TCPIP
 import RSSI_Value
 from tutorial_interfaces.srv import DroneStatus, DroneMissionPath
+#from mavros_msgs.srv import DroneStatus, DroneMissionPath
 # from tutorial_interfaces.msg import Img
 
 drone_point = [] #無人機不固定飛行點
