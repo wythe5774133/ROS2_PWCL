@@ -23,6 +23,7 @@ import binascii
 import RSSI_Value
 import xbee_v4 as xbee_API
 from tutorial_interfaces.srv import DroneStatus, DroneMissionPath
+#from mavros_msgs.srv import DroneStatus, DroneMissionPath
 
 
 drone_id = bytes('\x02', 'utf-8')
