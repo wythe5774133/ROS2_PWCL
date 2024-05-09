@@ -1,8 +1,0 @@
-srv/DroneMissionPath.idl
-srv/DroneMissionPath.srv
-srv/DroneMissionPath_Request.msg
-srv/DroneMissionPath_Response.msg
-srv/DroneStatus.idl
-srv/DroneStatus.srv
-srv/DroneStatus_Request.msg
-srv/DroneStatus_Response.msg

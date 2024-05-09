@@ -1,4 +1,0 @@
-source;share/mavros_extras/local_setup.bash
-source;share/mavros_extras/local_setup.dsv
-source;share/mavros_extras/local_setup.sh
-source;share/mavros_extras/local_setup.zsh

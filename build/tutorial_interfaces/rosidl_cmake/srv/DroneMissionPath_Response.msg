@@ -1,2 +1,0 @@
-
-bool path_check
