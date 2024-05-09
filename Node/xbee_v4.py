@@ -314,7 +314,8 @@ class frame_details():
         self.GUAV_len = 0x34
         self.Status_len = 0x07
         self.Receive_Packet = 0x90
-        self.Transmit_Status = 0x8B    
+        self.Transmit_Status = 0x8B
+        self.RSSI_ID = 0x88
          
 def get_rsearch_point_Xbee():
     global drone_point_xbee
