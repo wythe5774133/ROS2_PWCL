@@ -1,4 +1,0 @@
-Invoking command in '/home/wythe/PWCL_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wythe/PWCL_ws/build/mavros_msgs -- -j12 -l12
-Invoked command in '/home/wythe/PWCL_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wythe/PWCL_ws/build/mavros_msgs -- -j12 -l12
-Invoking command in '/home/wythe/PWCL_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wythe/PWCL_ws/build/mavros_msgs
-Invoked command in '/home/wythe/PWCL_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wythe/PWCL_ws/build/mavros_msgs

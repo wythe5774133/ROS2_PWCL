@@ -1,6 +1,0 @@
-Invoking command in '/home/wythe/PWCL_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wythe/PWCL_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/wythe/PWCL_ws/install/mavlink
-Invoked command in '/home/wythe/PWCL_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wythe/PWCL_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/wythe/PWCL_ws/install/mavlink
-Invoking command in '/home/wythe/PWCL_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wythe/PWCL_ws/build/mavlink -- -j12 -l12
-Invoked command in '/home/wythe/PWCL_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wythe/PWCL_ws/build/mavlink -- -j12 -l12
-Invoking command in '/home/wythe/PWCL_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wythe/PWCL_ws/build/mavlink
-Invoked command in '/home/wythe/PWCL_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wythe/PWCL_ws/build/mavlink
